@@ -47,4 +47,4 @@ CC0
 
 
 Demo
-![1684825225491](./demo.png)
+![Demo of web app](demo.png)
