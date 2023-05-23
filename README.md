@@ -33,4 +33,4 @@ This is a finished project and no further contribution is needed.
 CC0
 ## Questions 
 [Github](https://github.com/LaurenWollaston)
-[E-Mail](laurenofw@gmail.com)
+[E-Mail](mailto:laurenofw@gmail.com)
