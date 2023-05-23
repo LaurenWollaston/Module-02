@@ -1,8 +1,11 @@
 # Professional Portfolio       [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-## Description 
-A portfolio that showcases my work and contact information, my most prominant work is given a larger section of the page, and the website is responsive to mobile screens. 
+
+## Description
+
+A portfolio that showcases my work and contact information, my most prominant work is given a larger section of the page, and the website is responsive to mobile screens.
 
 ## Acceptence Criteria
+
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 ✔️
@@ -22,15 +25,26 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ✔️
 
-## Installation 
+## Installation
+
 Everything runs in browser from github pages. Everything uses plain css and HTML
 
-## Contribution Guidelines 
+## Contribution Guidelines
+
 This is a finished project and no further contribution is needed.
-## Testing Instructions 
+
+## Testing Instructions
 
 ## License
+
 CC0
-## Questions 
+
+## Questions
+
 [Github](https://github.com/LaurenWollaston)
 [E-Mail](mailto:laurenofw@gmail.com)
+[Deployed App](https://laurenwollaston.github.io/Module-02/)
+
+
+Demo
+![1684825225491](image/README/1684825225491.png)
