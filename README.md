@@ -47,4 +47,4 @@ CC0
 
 
 Demo
-![Demo of web app](demo.png)
+![Demo of web app](demo.PNG)
