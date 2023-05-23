@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #161616;
+}
+.f-container{
+    display: flex;
+}
+.f-row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+}
+  
+.padding{
+    padding:5px;
+    margin:10px;
+}
+.paragraph{
+    display: inline-flex;
+    font-size: 20px;
+    color:white;
+    max-width:77% !important;
+    margin-left: 10%;
+}
+.f-col {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+  }
+.left {
+    max-width: 20%;
+    text-align: right;
+}
+.sectionTitle{
+    font-size: 40px;
+    font-weight: 900;
+    color:white;
+    text-shadow: 4px 3px 0px #7E7E7E;
+}
+#navbar {
+    height: fit-content;
+    width: 100%;
+    background-color: #0c0c0c;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navleft {
+    margin-right: auto;
+  }
+  
+  .navbarLinks {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 10vw;
+  }
+.navbarItem{
+
+    color:#626777;
+    text-shadow: 1px 1px 0px #32343d;
+    width:300px;
+    display: inline-flex;
+}
+.navbarItemWhite{
+    color:#ffffff;
+    text-shadow: 1px 1px 0px #32343d;
+    width:300px;
+    display: inline-flex;
+    text-decoration: none;
+}
+.flexright{
+    align-self:end;
+    display: inline-flex;
+}
+
+.card {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    border: 5px solid #C0C0C0;
+    position: relative;
+}
+.card:hover {
+    border: 5px solid   #4c38a7;
+} 
+.cardleft{
+    margin-left: 8%;
+}
+.cardright{
+    margin-right: 8%
+}
+.headliner{
+    margin-left: 8%;
+    margin-right: 8%;
+    width:81%
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.invisible{
+    display:none;
+}
+  
+  .banner {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 700px) {
+    *{
+        margin:0;
+        padding: 0;
+    }
+    #navbar {
+      flex-direction: column;
+    }
+    .headliner{
+        height: 400px;
+    }
+  
+    .navleft {
+      text-align: center;
+      margin: 0;
+    }
+  
+    .navbarLinks {
+      margin-left: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbarItem {
+      margin-bottom: 5px;
+      width: auto;
+      justify-content: center;
+    }
+  
+    .f-row {
+      flex-direction: column;
+    }
+  
+    .f-col {
+      width: 100%;
+    }
+    .flexright{
+        text-align: center;
+        justify-content: center;
+    }
+    .navbarItemWhite{
+        margin-left: 50%;
+    }
+    .card {
+      width: 90%;
+      margin:0;
+    }
+  }
+  
+ 
+#zero{
+    background-image: url("./image/work/0.png");
+}
+#zero::before {
+    background-image: url("./image/work/0.png");
+}
+
+#one{
+    background-image: url("./image/work/1.png");
+}
+#one::before {
+    background-image: url("./image/work/1.png");
+}
+
+#two{
+    background-image: url("./image/work/2.png");
+}
+#two::before {
+    background-image: url("./image/work/2.png");
+}
+
+#three{
+    background-image: url("./image/work/3.png");
+}
+#three::before {
+    background-image: url("./image/work/3.png");
+}
+
+#four{
+    background-image: url("./image/work/4.png");
+}
+#four::before {
+    background-image: url("./image/work/4.png");
+}
+
+#five{
+    background-image: url("./image/work/5.png");
+}
+#five::before {
+    background-image: url("./image/work/5.png");
+}
+
+#six{
+    background-image: url("./image/work/6.png");
+}
+#six::before {
+    background-image: url("./image/work/6.png");
+}
+
+.image::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(90%);
+    opacity: 1;
+    transition: opacity .3s;
+}
+.image:hover::before {
+    filter: grayscale(0%);
+    transition: opacity 1.5s;
+}
